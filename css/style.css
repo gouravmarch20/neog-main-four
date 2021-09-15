@@ -1,0 +1,19 @@
+* {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+#hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* max-height: 60% ; */
+  /* width: 100%; */
+}
+.image {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    max-width: 100%;
+    background-color:#FF6263;
+}
