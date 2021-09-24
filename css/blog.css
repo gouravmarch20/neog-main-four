@@ -1,0 +1,80 @@
+:root {
+  --yellow-color: #edbf69;
+  --green-color: #50dbb4;
+  --yellow-light-color: #e5d68a;
+  --red-color: #ff6263;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+}
+.list-non-bullet {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+span{
+  background-color: var(--green-color);
+  border-radius: 2rem;
+  padding: .3rem
+}
+
+.list-item-inline {
+  display: inline;
+  margin-right: 2rem;
+}
+
+/* section */
+section {
+  margin-top: 1rem;
+}
+.container {
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 2rem;
+  width: 80%;
+  border-radius: 3rem;
+}
+
+.blog-section {
+  margin: 2rem 0rem;
+}
+.blog-btn {
+  background-color: var(--red-color);
+  border: #ff6263;
+  padding: 0.6rem 1.3rem;
+  border-radius: 3rem;
+}
+
+/* navbar */
+.navigation {
+  display: flex;
+  background-color: var(--yellow-color);
+  padding: 1rem;
+}
+.nav-brand {
+  font-size: larger;
+}
+.nav-pills {
+  margin: auto;
+  margin-top: 0.4rem;
+  font-size: larger;
+}
+/* footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: var(--yellow-color);
+  text-align: center;
+  padding: 0.3rem 0rem;
+}
+.footer-header {
+  margin-bottom: 1rem;
+  font-size: larger;
+}
