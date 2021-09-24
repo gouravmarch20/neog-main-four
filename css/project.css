@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --danger-color: #ff6263;
+  --danger-light-color: #ff6263;
+  --info-color: #03203c;
+  --yellow-color: #ddd101;
+}
+
+a {
+  text-decoration: none;
+  /* color: inherit; */
+}
+/* nav */
+.navigation {
+  display: flex;
+  margin-top: 0rem;
+  background-color: var(--yellow-color);
+}
+.nav-pills {
+  margin: 0 auto;
+  margin-right: 1rem;
+  padding-top: 0.4rem;
+}
+.list-item-inline {
+  display: inline;
+  margin-right: 2rem;
+}
+.nav-brand {
+  font-size: 2rem;
+}
+.list-non-bullet {
+  font-size: 1.3rem;
+}
+
+/* hero */
+.hero {
+  text-align: center;
+  margin: 1rem 0rem;
+}
+
+/* project section */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+article h1 {
+  margin: 0.8rem 0rem;
+}
+.mark-tag {
+  background-color: var(--yellow-color);
+}
+.green-tag {
+  background-color: var(--info-color);
+  margin-right: 0.7rem;
+}
+time {
+  margin-left: 2rem;
+}
+
+article p {
+  margin: 1rem 0rem;
+}
+article a {
+  padding: 0.3rem;
+  background-color: red;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  color: white;
+}
+
+/* footer */
+footer {
+  margin-top: 1rem;
+  background-color: green;
+  text-align: center;
+}
