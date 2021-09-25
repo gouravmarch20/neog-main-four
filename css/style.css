@@ -3,11 +3,14 @@ body {
 }
 :root {
   --yellow-color: #edbf69;
-  --red-color: #e07c24;
+  --green-color: #4dd637;
   --yellow-light-color: #e5d68a;
+  --red-color: #ff6263;
+  --dark-blue-color: #03203c;
 }
 a {
   text-decoration: none;
+  color: var(--dark-blue-color);
 }
 
 h2 {
@@ -28,6 +31,11 @@ h2 {
 .list-item-inline {
   display: inline;
   margin-right: 2rem;
+}
+.link-active {
+  background-color: var(--green-color);
+  padding: 0.3rem 0.7rem;
+  border-radius: 2rem;
 }
 /* navbar */
 .navigation {

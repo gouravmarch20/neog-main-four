@@ -1,8 +1,9 @@
 :root {
   --yellow-color: #edbf69;
-  --green-color: #50dbb4;
+  --green-color: #4DD637;
   --yellow-light-color: #e5d68a;
   --red-color: #ff6263;
+  --dark-blue-color: #03203C;
 }
 
 body {
@@ -14,6 +15,8 @@ body {
 }
 a {
   text-decoration: none;
+  color:var(--dark-blue-color) ;
+
 }
 span{
   background-color: var(--green-color);
@@ -24,6 +27,11 @@ span{
 .list-item-inline {
   display: inline;
   margin-right: 2rem;
+}
+.link-active{
+  background-color: var(--green-color);
+  padding: .3rem .7rem;
+  border-radius: 2rem;
 }
 
 /* section */

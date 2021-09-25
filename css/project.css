@@ -3,12 +3,20 @@ body {
 }
 :root {
   --yellow-color: #edbf69;
-  --green-color: #50DBB4;
+  --green-color: #4DD637;
   --yellow-light-color: #e5d68a;
-  --red-color : #FF6263;
+  --red-color: #ff6263;
+  --dark-blue-color: #03203C;
 }
 a {
   text-decoration: none;
+  color:var(--dark-blue-color) ;
+
+}
+.link-active{
+  background-color: var(--green-color);
+  padding: .3rem .7rem;
+  border-radius: 2rem;
 }
 /* lists */
 .list-non-bullet {
@@ -72,9 +80,10 @@ article a {
   color: white;
 }
 
+
 /* footer */
 footer {
-  /* position: fixed; */
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -82,5 +91,10 @@ footer {
   text-align: center;
   background-color: var(--yellow-color);
   text-align: center;
-  padding: 0.1rem 0rem;
+  padding: 0.3rem 0rem;
+}
+.footer-header {
+
+  margin-bottom: 1rem;
+  font-size: larger;
 }
