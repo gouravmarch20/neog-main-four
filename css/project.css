@@ -3,7 +3,7 @@ body {
 }
 :root {
   --yellow-color: #edbf69;
-  --green-color: #4DD637;
+  --green-color: #38CC77;
   --yellow-light-color: #e5d68a;
   --red-color: #ff6263;
   --dark-blue-color: #03203C;
@@ -61,8 +61,11 @@ article h1 {
 }
 .green-tag {
   background-color: var(--green-color);
+  color:white;
   padding: .3rem;
   margin-right: 0.7rem;
+  margin-bottom :0.3rem ;
+
 }
 .time {
   margin-left: 2rem;
@@ -83,7 +86,7 @@ article a {
 
 /* footer */
 footer {
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
