@@ -1,0 +1,93 @@
+:root {
+  --blue-color: #207398;
+  --sky-blue-color: #51e1ed;
+  --dark-blue-color: #03203c;
+  --green-glow: #51ff0d;
+}
+body {
+  margin: 0;
+  /* background-color: var(--dark-blue-color); */
+  background-color: #207398;
+  color: var(--dark-blue-color);
+}
+a {
+  text-decoration: none;
+  color: var(--dark-blue-color);
+  color: var(--green-glow);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  /* background-color: #03203C; */
+  /* margin-top: 2rem; */
+}
+nav h1 {
+  margin-top: 1.9rem;
+}
+.link-active {
+  background-color: black;
+  color: var(--green-glow);
+  padding: 0.3rem 0.7rem;
+  border-radius: 2rem;
+}
+
+.list-item-inline {
+  display: inline;
+  margin-right: 2rem;
+}
+
+.nav-brand {
+  font-size: larger;
+}
+.nav-pills {
+  margin: auto;
+  margin-top: 2rem;
+  font-size: larger;
+}
+
+/* project section */
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.green-tag {
+  background-color: var(--green-color);
+  color: white;
+  padding: 0.3rem;
+  margin-right: 0.7rem;
+  margin-bottom: 0.3rem;
+}
+.quote-beautify {
+  background-color: white;
+  color: var(--dark-blue-color);
+}
+.quote-bg {
+  padding: 1rem;
+
+  border-radius: 1rem;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 1380px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    border-radius: 1rem;
+    position: static;
+  }
+}
