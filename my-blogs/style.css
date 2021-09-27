@@ -15,7 +15,14 @@ a {
   color: var(--dark-blue-color);
   color: var(--green-glow);
 }
-
+span{
+    color: #3944F7;
+    font-weight: bold;
+    /* background-color:#FF6263; */
+}
+h1{
+    color: #B4161B;
+}
 nav {
   display: flex;
   justify-content: center;
@@ -47,7 +54,16 @@ nav h1 {
   margin-top: 2rem;
   font-size: larger;
 }
-
+/* header  */
+.hero-heading{
+    background-color:var(--sky-blue-color) ;
+    text-align: center;
+    padding: 2.4rem;
+    border-radius: 70% 10% 50% 7%;
+    color: #B4161B;
+    font-weight: bolder;
+    font-size: larger;
+}
 /* project section */
 
 .container-center {
@@ -62,6 +78,20 @@ nav h1 {
   margin-right: 0.7rem;
   margin-bottom: 0.3rem;
 }
+/* artice  */
+.color-one {
+  background-color: #e5d68a;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 1.2rem 0rem !important;
+}
+.color-two {
+  background-color: #CE6A;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 1.2rem 0rem !important;
+}
+/* quote  */
 .quote-beautify {
   background-color: white;
   color: var(--dark-blue-color);
@@ -71,6 +101,7 @@ nav h1 {
 
   border-radius: 1rem;
 }
+/* footer  */
 footer {
   position: fixed;
   left: 0;
@@ -89,5 +120,14 @@ footer {
     margin-bottom: 1rem !important;
     border-radius: 1rem;
     position: static;
+    background-color: black;
   }
+}
+
+/* jam stack  */
+.jam-para{
+    padding: 2rem;
+    color: wheat;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
