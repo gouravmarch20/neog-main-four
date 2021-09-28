@@ -3,7 +3,7 @@ body {
 }
 :root {
   --yellow-color: #edbf69;
-  --green-color: #38CC77;
+  --green-color: #38cc77;
   --yellow-light-color: #e5d68a;
   --red-color: #ff6263;
   --dark-blue-color: #03203c;
@@ -50,6 +50,7 @@ h2 {
   margin: auto;
   margin-top: 0.4rem;
   font-size: larger;
+  overflow: hidden;
 }
 
 /* Header section */
@@ -68,7 +69,6 @@ h2 {
 }
 /* Intro scection  */
 .section {
-  /* margin:rem ; */
   width: 100%;
   display: block;
 }
@@ -102,4 +102,9 @@ footer {
 }
 .social-links {
   padding-top: 1rem;
+}
+@media only screen and (max-width: 510px) {
+  .navigation {
+    display: block;
+  }
 }

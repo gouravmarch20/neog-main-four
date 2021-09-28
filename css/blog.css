@@ -108,3 +108,8 @@ footer {
 .social-links {
   padding-top: 1rem;
 }
+@media only screen and (max-width: 510px) {
+  .navigation {
+    display: block;
+  }
+}

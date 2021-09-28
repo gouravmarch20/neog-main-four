@@ -3,19 +3,18 @@ body {
 }
 :root {
   --yellow-color: #edbf69;
-  --green-color: #38CC77;
+  --green-color: #38cc77;
   --yellow-light-color: #e5d68a;
   --red-color: #ff6263;
-  --dark-blue-color: #03203C;
+  --dark-blue-color: #03203c;
 }
 a {
   text-decoration: none;
-  color:var(--dark-blue-color) ;
-
+  color: var(--dark-blue-color);
 }
-.link-active{
+.link-active {
   background-color: var(--green-color);
-  padding: .3rem .7rem;
+  padding: 0.3rem 0.7rem;
   border-radius: 2rem;
 }
 /* lists */
@@ -57,15 +56,14 @@ article h1 {
   margin: 0.8rem 0rem;
 }
 .mark-tag {
-  border-radius: 1rem
+  border-radius: 1rem;
 }
 .green-tag {
   background-color: var(--green-color);
-  color:white;
-  padding: .3rem;
+  color: white;
+  padding: 0.3rem;
   margin-right: 0.7rem;
-  margin-bottom :0.3rem ;
-
+  margin-bottom: 0.3rem;
 }
 .time {
   margin-left: 2rem;
@@ -77,12 +75,11 @@ article p {
 }
 article a {
   padding: 0.3rem;
-  background-color:var(--red-color);
+  background-color: var(--red-color);
   border-radius: 1rem;
   margin-left: 1rem;
   color: white;
 }
-
 
 /* footer */
 footer {
@@ -96,7 +93,11 @@ footer {
   padding: 0.3rem 0rem;
 }
 .footer-header {
-
   margin-bottom: 1rem;
   font-size: larger;
+}
+@media only screen and (max-width: 510px) {
+  .navigation {
+    display: block;
+  }
 }
